@@ -1,0 +1,148 @@
+.header{
+	width: 100%;
+}
+
+.header-logo{
+	display: flex;
+	float: left;
+	max-width: 25%;
+	padding-bottom: 15px;
+}
+
+.header-name {
+  color: #BC91AB;
+  text-align: right;
+  font-family: jenna sue;
+  font-size: 7vw;
+  margin: 0;
+  padding-top: 30px;
+  }
+
+.header-title{
+    text-align: right;
+	color: #717171;
+	font-size: 5vw;
+	margin: 0;
+}
+.main-hero {
+	max-width: 100%;
+	padding-top: 20px;
+	padding-left: 0;
+}
+.main-work,
+.projects-title{
+	text-align: center;
+	color: #717171;
+	font-size: 6vw;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+
+.featured{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  
+}
+.responsive-img {
+	width: 70%; height: auto;
+	display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+@media screen and (min-width: 650px){
+
+.header-name {
+	padding-top: 70px;
+}
+
+.projects-title{
+	font-size: 4vw;
+}
+
+.main-work{
+	color: #BC91AB;
+}
+
+.featured {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+    width: 90%;
+}
+
+.one {
+	width: 50%;
+	height: auto;
+	display: inline-block;
+
+}
+
+.two {
+	width: 50%;
+	height: auto;
+	display: inline-block;
+	padding-top: 14px;
+	
+
+}
+.three {
+	width: 95%;
+	height: auto;
+	display: block;
+	align-self: center;	
+}
+
+}
+
+@media screen and (min-width: 950px){
+
+
+.header-name {
+	padding-top: 145px;
+	font-size: 5vw;
+}
+.header-title{
+	font-size: 3vw;
+}
+
+.projects-title{
+	font-size: 2.5vw;
+}
+
+.featured {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+    width: 100%;
+}
+
+.one {
+	width: 30%;
+	height: auto;
+	display: inline-block;
+
+}
+
+.two {
+	width: 30%;
+	height: auto;
+	display: inline-block;
+	padding-top: 14px;
+	
+
+}
+.three {
+	width: 30%;
+	height: auto;
+	display: inline-block;
+	padding-top: 35px;
+
+}
+
+}
